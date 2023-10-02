@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <title>Cardápio - Al Hilal</title>
+  <link href="./css/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="./favicon.svg" rel="icon" type="image/svg+xml">
+  <meta name="description" content="Área para excluir e adicionar produtos">
+</head>
+
+<body>
+
+    <header class="header-bg header-margin">
+        <div class="header grid-1">
+        <a href="index.html"><img src="../img/icones/marca.svg" alt="Al Hilal"></a>
+          <nav>
+            <ul class="header-menu" aria-label="menu">
+              <li><a class="fonte-1-xs cor-base-0" href="sair.php">Sair</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header> 
+
+    <div class="menu-container grid-2">
+        <div class="menu-item">
+            <img src="./img/pizzas/calabresa.jpg" alt="Pizza Margherita">
+            <div class="info">
+                <h2 class="fonte-1-xs">Pizza Calabresa</h2>
+                <p class="fonte-1-xxs">Pepperoni, oregano e queijo.</p>
+                <p class="fonte-1-xxs">R$ 39,00</p>
+                <button class="edit-button" onclick="editItem(0)">Editar</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="./img/pizzas/pepperoni.jpg" alt="Pizza Pepperoni">
+            <div class="info">
+                <h2 class="fonte-1-xs">Pizza Pepperoni</h2>
+                <p class="fonte-1-xxs">Calabresa, catupiry e queijo</p>
+                <p class="fonte-1-xxs">R$ 39,00</p>
+                <button class="edit-button" onclick="editItem(1)">Editar</button>
+            </div>
+        </div>
+
+     <div class="menu-item">
+            <img src="./img/pizzas/nordestina.jpg" alt="Pizza Pepperoni">
+            <div class="info">
+                <h2 class="fonte-1-xs">Pizza Nordestina</h2>
+                <p class="fonte-1-xxs">Carne seca, açafrão e queijo</p>
+                <p class="fonte-1-xxs">R$ 39,00</p>
+                <button class="edit-button" onclick="editItem(1)">Editar</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="./img/acompanhamento/banana-frita.jpg" alt="Pizza Pepperoni">
+            <div class="info">
+                <h2 class="fonte-1-xs">Banana-frita</h2>
+                <p class="fonte-1-xxs">Banana, leite condensado, canela e açucar.</p>
+                <p class="fonte-1-xxs">R$ 19,00</p>
+                <button class="edit-button" onclick="editItem(1)">Editar</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="./img/acompanhamento/x-burguer.jpg" alt="Pizza Pepperoni">
+            <div class="info">
+                <h2 class="fonte-1-xs">X-burguer</h2>
+                <p class="fonte-1-xxs">Hamburguer, cheddar, picles e molho rosê.</p>
+                <p class="fonte-1-xxs">R$ 19,00</p>
+                <button class="edit-button" onclick="editItem(1)">Editar</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="./img/acompanhamento/cachorro-quente.jpg" alt="Pizza Pepperoni">
+            <div class="info">
+                <h2 class="fonte-1-xs">Hotdog</h2>
+                <p class="fonte-1-xxs">Salsicha, queijo, mostarda e molho branco.</p>
+                <p class="fonte-1-xxs">R$ 19,00</p>
+                <button class="edit-button" onclick="editItem(1)">Editar</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="./img/sucos/detox.jpg" alt="Pizza Pepperoni">
+            <div class="info">
+                <h2 class="fonte-1-xs">Suco Detox</h2>
+                <p class="fonte-1-xxs">Limão, Hortelã e sem açucar.</p>
+                <p class="fonte-1-xxs">R$ 9,00</p>
+                <button class="edit-button" onclick="editItem(1)">Editar</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="./img/sucos/maca.jpg" alt="Pizza Pepperoni">
+            <div class="info">
+                <h2 class="fonte-1-xs">Suco Maça</h2>
+                <p class="fonte-1-xxs">Maça, hortelã e raspas de limão.</p>
+                <p class="fonte-1-xxs">R$ 9,00</p>
+                <button class="edit-button" onclick="editItem(1)">Editar</button>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="./img/sucos/morango.jpg" alt="Pizza Pepperoni">
+            <div class="info">
+                <h2 class="fonte-1-xs">Suco Morango</h2>
+                <p class="fonte-1-xxs">Morango, hortelã e raspas de limão.</p>
+                <p class="fonte-1-xxs">R$ 9,00</p>
+                <button class="edit-button" onclick="editItem(1)">Editar</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

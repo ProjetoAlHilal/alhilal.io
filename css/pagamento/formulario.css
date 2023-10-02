@@ -1,0 +1,70 @@
+.main {
+  background: none;
+}
+.box {
+  font-family: 'Roboto', sans-serif; 
+  display: flex;
+  justify-content: center;
+}
+form {
+  flex-basis: 300px;
+  margin: 32px 0px;
+  background-color: #2E2E2E;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #ffffff;
+}
+fieldset {
+  border: 2px solid #1C7F9E;
+}
+legend {
+  border: 1px solid #1C7F9E;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  background: #1C7F9E;
+}
+.inputbox {
+  position: relative;
+}
+.inputUser {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  outline: none;
+  color: #ffffff;
+  font-size: 1rem;
+  width: 100%;
+  letter-spacing: 0.1rem;
+}
+.labelInput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~  .labelInput {
+  top: -20px;
+  font-size: 0.7rem;
+  color: #1C7F9E;
+}
+#submit,
+.update {
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;  
+  color: #ffffff;
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background: linear-gradient(180deg, #1C7F9E 0%, #2E2E2E 100%);
+  border: 1px solid #1C7F9E;
+}
+#submit:hover{
+  background: #1C7F9E;
+  cursor: pointer;
+}

@@ -1,0 +1,25 @@
+@import "./global/global.css";
+
+@import "./utilidades/tipografia.css";
+
+@import "./utilidades/cores.css";
+
+@import "./utilidades/layout.css";
+
+@import "./global/header.css";
+
+@import "./utilidades/componentes.css";
+
+@import "./home/introducao.css";
+
+@import "./pagamento/formulario.css";
+
+@import "./usuario/usuario.css";
+
+@import "./login/login.css";
+
+@import "./edit/edit.css";
+
+@import "./adm/adm.css";
+
+@import "./global/footer.css";

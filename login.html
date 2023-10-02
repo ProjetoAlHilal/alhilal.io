@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <title>Pizzaria Al Hilal</title>
+  <link href="./css/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="./favicon.svg" rel="icon" type="image/svg+xml">
+  <meta name="description" content="Área de Login do Adminstrador">
+</head>
+
+<body id="login">
+
+  <main class="main grid-2">
+    <div class="login">
+      <h1 class="titulo-login">Login</h1>
+      <form action="./php/testLogin.php" method="post">
+        <input class="login-input" name="nome" type="text" placeholder="Nome">
+        <br><br>
+        <input class="login-input" name="senha" type="password" placeholder="Senha">
+        <br><br>
+        <input class="login-button" name="submit" type="submit"  value="entrar"></input>
+    </form>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

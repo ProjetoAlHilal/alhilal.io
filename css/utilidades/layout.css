@@ -1,0 +1,76 @@
+.grid-1 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.grid-2 {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.lista-conteudo {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+}
+#endereco .lista-conteudo {
+    grid-template-columns: 1fr 1fr;
+}
+.lista-item {
+    transition: 0.3s;
+}
+.lista-item:hover {
+    scale: 1.1;
+}
+.lista-item img {
+    margin-bottom: 20px;
+    min-width: 306px;
+}
+.lista-bg h1 {
+    padding: 60px 20px;
+    padding-top: 0px;
+}
+.lista-item h2 {
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.lista-item h2:before {
+    content: "";
+    width: 6px;
+    height: 18px;
+    background: var(--cor-primaria-5);
+    top: 10px;
+    left: -10px;
+    position: absolute;
+}
+.lista-conteudo h3 {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.lista-conteudo span {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+@media (max-width: 1000px) {
+    .lista-conteudo {
+        overflow-x: auto;
+        padding-bottom: 20px;
+        margin-bottom: 120px;
+    }
+    .lista-item:hover {
+        scale: none;
+    }
+}
+@media (max-width: 800px) {
+    .lista-conteudo {
+        padding-bottom: 20px;
+        margin-bottom: 80px;
+    }
+}
+@media (max-width: 600px) {
+    .lista-conteudo {
+        margin-bottom: 60px;
+    }
+}

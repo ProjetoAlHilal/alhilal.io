@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    background: var(--cor-base-1);
+}
+h1,
+h2,
+h3,
+p {
+    margin: 0px;
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+[src$="jpg"] {
+    border-radius: 5px;
+}
